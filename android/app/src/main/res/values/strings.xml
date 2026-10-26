@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CrateFlow</string>
+    <string name="tagline">Sample Lineage &amp; Harmonic Playlist Synthesizer</string>
+    <string name="deck_a">Deck A • Modern Release</string>
+    <string name="deck_b">Deck B • Original Sample</string>
+    <string name="auto_transition">Auto-Drop to Sample</string>
+    <string name="sync_nudge">Sync Nudge</string>
+</resources>
