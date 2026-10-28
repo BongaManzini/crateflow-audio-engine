@@ -10,24 +10,24 @@ Available as both a **Client-Side Web Application** (powered by the Web Audio AP
 
 ```
 Web-Applications/CrateFlow-Audio-Engine/
-├── web/                           # Client-side Web Audio API DSP Studio
-│   ├── src/                       # React 19 + Tailwind CSS + Web Audio Engine
-│   │   ├── api/                   # Sample ancestry and playlist graph APIs
-│   │   ├── audio/                 # BiquadFilter, Crossfader & Beat-Clock nodes
-│   │   └── components/            # Dual-deck HUD, spectrum analyzer, Camelot wheel
-│   ├── package.json               # Vite + React build configuration
-│   └── vite.config.js             # Bundler settings with base path support
+├── web/              # Client-side Web Audio API DSP Studio
+│  ├── src/            # React 19 + Tailwind CSS + Web Audio Engine
+│  │  ├── api/          # Sample ancestry and playlist graph APIs
+│  │  ├── audio/         # BiquadFilter, Crossfader & Beat-Clock nodes
+│  │  └── components/      # Dual-deck HUD, spectrum analyzer, Camelot wheel
+│  ├── package.json        # Vite + React build configuration
+│  └── vite.config.js       # Bundler settings with base path support
 │
-├── android/                       # Native Android Application (Jetpack Compose)
-│   ├── app/src/main/java/         # Kotlin audio engine, MVVM architecture
-│   │   ├── audio/                 # DspCrossfader & AudioEngine implementations
-│   │   ├── data/                  # PlaylistSynthesizer & SampleRepository
-│   │   ├── model/                 # CamelotKey, Track, and SamplePair models
-│   │   └── ui/                    # DualDeckView, WaveformBar, AncestryTreeView
-│   ├── build.gradle.kts           # Modern Kotlin DSL Gradle build
-│   └── settings.gradle.kts        # Multi-module configuration
+├── android/            # Native Android Application (Jetpack Compose)
+│  ├── app/src/main/java/     # Kotlin audio engine, MVVM architecture
+│  │  ├── audio/         # DspCrossfader & AudioEngine implementations
+│  │  ├── data/         # PlaylistSynthesizer & SampleRepository
+│  │  ├── model/         # CamelotKey, Track, and SamplePair models
+│  │  └── ui/          # DualDeckView, WaveformBar, AncestryTreeView
+│  ├── build.gradle.kts      # Modern Kotlin DSL Gradle build
+│  └── settings.gradle.kts    # Multi-module configuration
 │
-└── README.md                      # Unified platform documentation
+└── README.md           # Unified platform documentation
 ```
 
 ---
